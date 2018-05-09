@@ -24,3 +24,8 @@ function appendKitten(kittyName){
   var moreKittens = [...window.kittens, kittyName];
   return moreKittens;
 }
+
+function prependKitten(Name){
+  return [Name, ...window.kittens];
+}
+
