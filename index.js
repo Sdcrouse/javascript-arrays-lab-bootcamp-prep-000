@@ -11,5 +11,7 @@ function destructivelyPrependKitten(kitty) {
 }
 
 function destructivelyRemoveLastKitten() {
-  window.kittens
+  window.kittens.pop();
+  return;
 }
+
