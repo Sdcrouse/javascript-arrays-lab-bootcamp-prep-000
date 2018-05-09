@@ -9,3 +9,7 @@ function destructivelyPrependKitten(kitty) {
   window.kittens.unshift(kitty);
   return;
 }
+
+function destructivelyRemoveLastKitten() {
+  window.kittens
+}
