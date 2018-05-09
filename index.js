@@ -33,3 +33,5 @@ function removeLastKitten() {
   var fewerKittens = window.kittens.slice(0, window.kittens.length - 1);
   return fewerKittens;
 }
+
+function 
