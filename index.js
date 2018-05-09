@@ -34,4 +34,6 @@ function removeLastKitten() {
   return fewerKittens;
 }
 
-function 
+function removeFirstKitten() {
+  return window.kittens.slice
+}
