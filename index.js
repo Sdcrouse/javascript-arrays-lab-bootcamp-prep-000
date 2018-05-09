@@ -4,3 +4,8 @@ function destructivelyAppendKitten(name) {
   window.kittens.push(name);
   return;
 }
+
+function destructivelyPrependKitten(kitty) {
+  window.kittens.unshift(name);
+  return;
+}
