@@ -20,3 +20,7 @@ function destructivelyRemoveFirstKitten() {
   return;
 }
 
+function appendKitten(kittyName){
+  var moreKittens = [kittyName, ...window.kittens];
+  return moreKittens;
+}
