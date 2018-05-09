@@ -15,3 +15,8 @@ function destructivelyRemoveLastKitten() {
   return;
 }
 
+function destructivelyRemoveFirstKitten() {
+  window.kittens.shift();
+  return;
+}
+
