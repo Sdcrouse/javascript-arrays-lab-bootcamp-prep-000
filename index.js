@@ -35,5 +35,6 @@ function removeLastKitten() {
 }
 
 function removeFirstKitten() {
-  return window.kittens.slice
+  return window.kittens.slice(1);
 }
+//Note: To get the first kitten returned, just return window.kittens.slice(0,1)
